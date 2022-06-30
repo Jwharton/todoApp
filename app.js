@@ -46,9 +46,8 @@ document.addEventListener("click", function(event){
         * the line strike
         * 
         */
-       console.log("Here");
         if(event.target.classList.contains("shoppingListItem")){
-            console.log("Here2");
+            
                 if(event.target.classList.contains("red")){
                     event.target.classList.remove("red");
                 }else{
@@ -62,7 +61,7 @@ document.addEventListener("click", function(event){
          */        
         if(xSuperscript.nodeType === event.target.nodeType){
             shoppingListItems.forEach(function(item){
-                console.log(item);
+              
                 if(item.querySelector(".remove sup") === event.target){
                     shoppingList.removeChild(item);
                 }
