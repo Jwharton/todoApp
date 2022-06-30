@@ -1,0 +1,9 @@
+.red {
+    background-color: #eee;
+    color: red;
+    text-decoration: line-through;
+}
+
+.remove {
+    color: red;
+}
